@@ -10,12 +10,11 @@ def main():
     print('----------------------')
     
     number = get_number()
-    #user_number = ask_user()
-    #print(number)
+    
+    
     number = ''.join(str(e) for e in number)
-    #print(number)
-    #print(user_number)
    
+
     cow = 0
     bull = 0
     guesses = 0
@@ -26,9 +25,7 @@ def main():
         cow = 0
         bull = 0
         for i in range(0,4):
-            
-            #print(user_number[i])
-            
+          
             if number[i] == user_number[i]:
                 cow += 1
 
@@ -68,11 +65,6 @@ def ask_user():
     stringNumber = str(user_number)
     
     return stringNumber
-
-            
-    
-
-
 
 
 main()

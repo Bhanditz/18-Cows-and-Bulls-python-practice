@@ -14,7 +14,6 @@ def main():
     
     number = ''.join(str(e) for e in number)
    
-
     cow = 0
     bull = 0
     guesses = 0
